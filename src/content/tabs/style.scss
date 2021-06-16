@@ -1,0 +1,14 @@
+$body-color:red;
+
+body {
+  color: $body-color;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
