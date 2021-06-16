@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack server --config  webpack.dev.js",
-    "buld":"webpack  --config webpack.prod.js"
+    "buld": "webpack  --config webpack.prod.js",
+    "start":"node index.js"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,8 @@
     "webpack": "^5.39.0",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "expres": "^0.0.5"
   }
 }
